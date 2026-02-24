@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Website | Hash Tables</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Data Structures & Algorithms (DSA)</h1>
+    <p>Hash Tables</p>
+  </header>
+
+  <div class="page">
+    <nav>
+      <h2>Navigation</h2>
+
+      <h3>Home</h3>
+      <a href="index.html">Introduction</a>
+
+      <h3>Data Structures</h3>
+      <a href="arrays.html">Arrays</a>
+      <a href="linked-lists.html">Linked Lists</a>
+      <a href="stacks.html">Stacks</a>
+      <a href="queues.html">Queues</a>
+      <a class="active" href="hash-tables.html">Hash Tables</a>
+      <a href="trees.html">Trees</a>
+      <a href="graphs.html">Graphs</a>
+
+      <h3>Algorithms</h3>
+      <a href="algorithms.html">Algorithm Basics</a>
+      <a href="sorting.html">Sorting</a>
+      <a href="searching.html">Searching</a>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h2>Hash Tables</h2>
+        <p>
+          A <strong>hash table</strong> stores data as <strong>key–value pairs</strong>.
+          A <strong>hash function</strong> converts a key into an index, allowing very fast lookup.
+          In many languages, this is what powers structures like dictionaries or maps.
+        </p>
+
+        <div class="card">
+          <h3>Why they’re powerful</h3>
+          <p>
+            If the hash function distributes keys well, inserting, deleting, and searching can be very fast.
+            Hash tables are a common choice when you need to check whether something exists quickly.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Collisions (simple explanation)</h3>
+          <p>
+            A <strong>collision</strong> happens when two different keys map to the same index.
+            Common ways to handle collisions include storing multiple items in the same spot (like a list)
+            or finding another open spot.
+          </p>
+          <p><strong>Typical efficiency:</strong> average-case lookup is often <code>O(1)</code>, but worst-case can degrade to <code>O(n)</code>.</p>
+        </div>
+
+        <footer>
+          Next: <a href="trees.html">Trees</a>
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
