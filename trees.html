@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Website | Trees</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Data Structures & Algorithms (DSA)</h1>
+    <p>Trees</p>
+  </header>
+
+  <div class="page">
+    <nav>
+      <h2>Navigation</h2>
+
+      <h3>Home</h3>
+      <a href="index.html">Introduction</a>
+
+      <h3>Data Structures</h3>
+      <a href="arrays.html">Arrays</a>
+      <a href="linked-lists.html">Linked Lists</a>
+      <a href="stacks.html">Stacks</a>
+      <a href="queues.html">Queues</a>
+      <a href="hash-tables.html">Hash Tables</a>
+      <a class="active" href="trees.html">Trees</a>
+      <a href="graphs.html">Graphs</a>
+
+      <h3>Algorithms</h3>
+      <a href="algorithms.html">Algorithm Basics</a>
+      <a href="sorting.html">Sorting</a>
+      <a href="searching.html">Searching</a>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h2>Trees</h2>
+        <p>
+          A <strong>tree</strong> is a hierarchical data structure made of nodes connected by edges.
+          The top node is called the <strong>root</strong>, and nodes below it are children.
+          Trees are great for representing relationships like folders on a computer or organizational charts.
+        </p>
+
+        <div class="card">
+          <h3>Important terms</h3>
+          <ul>
+            <li><strong>Root:</strong> the starting node</li>
+            <li><strong>Leaf:</strong> a node with no children</li>
+            <li><strong>Height:</strong> how many levels the tree has</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Binary Search Trees (BST) (basic idea)</h3>
+          <p>
+            In a <strong>BST</strong>, left child values are smaller than the parent, and right child values are larger.
+            This ordering can make searching efficient when the tree stays balanced.
+          </p>
+          <p><strong>Typical efficiency:</strong> search can be around <code>O(log n)</code> in balanced trees, but can become <code>O(n)</code> if unbalanced.</p>
+        </div>
+
+        <footer>
+          Next: <a href="graphs.html">Graphs</a>
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
