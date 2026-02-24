@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Website | Graphs</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Data Structures & Algorithms (DSA)</h1>
+    <p>Graphs</p>
+  </header>
+
+  <div class="page">
+    <nav>
+      <h2>Navigation</h2>
+
+      <h3>Home</h3>
+      <a href="index.html">Introduction</a>
+
+      <h3>Data Structures</h3>
+      <a href="arrays.html">Arrays</a>
+      <a href="linked-lists.html">Linked Lists</a>
+      <a href="stacks.html">Stacks</a>
+      <a href="queues.html">Queues</a>
+      <a href="hash-tables.html">Hash Tables</a>
+      <a href="trees.html">Trees</a>
+      <a class="active" href="graphs.html">Graphs</a>
+
+      <h3>Algorithms</h3>
+      <a href="algorithms.html">Algorithm Basics</a>
+      <a href="sorting.html">Sorting</a>
+      <a href="searching.html">Searching</a>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h2>Graphs</h2>
+        <p>
+          A <strong>graph</strong> is a set of <strong>vertices (nodes)</strong> connected by <strong>edges</strong>.
+          Graphs are used to model connections like social networks, maps, and recommendation systems.
+        </p>
+
+        <div class="card">
+          <h3>Types of graphs</h3>
+          <ul>
+            <li><strong>Undirected:</strong> edges go both ways (friendship)</li>
+            <li><strong>Directed:</strong> edges have direction (follow, web links)</li>
+            <li><strong>Weighted:</strong> edges have costs (distance, time, price)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Representing graphs</h3>
+          <p>
+            Two common ways are an <strong>adjacency list</strong> (store neighbors for each node) and an
+            <strong>adjacency matrix</strong> (a grid showing connections). Adjacency lists are often more space-efficient
+            when there aren’t many edges.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Graph algorithms you’ll see a lot</h3>
+          <ul>
+            <li><strong>BFS</strong> (uses a queue) for exploring level by level</li>
+            <li><strong>DFS</strong> (uses a stack/recursion) for exploring deeply</li>
+            <li><strong>Dijkstra’s</strong> for shortest path in weighted graphs</li>
+          </ul>
+        </div>
+
+        <footer>
+          Want to connect graphs to searching? Review <a href="searching.html">Searching</a>.
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
