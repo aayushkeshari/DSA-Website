@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Website | Linked Lists</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Data Structures & Algorithms (DSA)</h1>
+    <p>Linked Lists</p>
+  </header>
+
+  <div class="page">
+    <nav>
+      <h2>Navigation</h2>
+
+      <h3>Home</h3>
+      <a href="index.html">Introduction</a>
+
+      <h3>Data Structures</h3>
+      <a href="arrays.html">Arrays</a>
+      <a class="active" href="linked-lists.html">Linked Lists</a>
+      <a href="stacks.html">Stacks</a>
+      <a href="queues.html">Queues</a>
+      <a href="hash-tables.html">Hash Tables</a>
+      <a href="trees.html">Trees</a>
+      <a href="graphs.html">Graphs</a>
+
+      <h3>Algorithms</h3>
+      <a href="algorithms.html">Algorithm Basics</a>
+      <a href="sorting.html">Sorting</a>
+      <a href="searching.html">Searching</a>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h2>Linked Lists</h2>
+        <p>
+          A <strong>linked list</strong> is made of nodes. Each node stores data and a link to the next node.
+          Linked lists do not require data to be stored next to each other in memory, which can make insertions and deletions easier.
+        </p>
+
+        <div class="card">
+          <h3>Key idea</h3>
+          <p>
+            Instead of using indices like an array, you move through the list by following links:
+            start at the head node, then follow the “next” reference until you reach the end.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Pros and cons</h3>
+          <ul>
+            <li><strong>Pro:</strong> Easy insert/delete near the front (no shifting)</li>
+            <li><strong>Con:</strong> Slow to access the middle (must traverse nodes)</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Complexity (general idea)</h3>
+          <ul>
+            <li>Access a specific position: often <code>O(n)</code></li>
+            <li>Insert/delete at head (with reference): often <code>O(1)</code></li>
+          </ul>
+        </div>
+
+        <footer>
+          Next: <a href="stacks.html">Stacks</a>
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
