@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DSA Website | Searching</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Data Structures & Algorithms (DSA)</h1>
+    <p>Searching Algorithms</p>
+  </header>
+
+  <div class="page">
+    <nav>
+      <h2>Navigation</h2>
+
+      <h3>Home</h3>
+      <a href="index.html">Introduction</a>
+
+      <h3>Data Structures</h3>
+      <a href="arrays.html">Arrays</a>
+      <a href="linked-lists.html">Linked Lists</a>
+      <a href="stacks.html">Stacks</a>
+      <a href="queues.html">Queues</a>
+      <a href="hash-tables.html">Hash Tables</a>
+      <a href="trees.html">Trees</a>
+      <a href="graphs.html">Graphs</a>
+
+      <h3>Algorithms</h3>
+      <a href="algorithms.html">Algorithm Basics</a>
+      <a href="sorting.html">Sorting</a>
+      <a class="active" href="searching.html">Searching</a>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h2>Searching</h2>
+        <p>
+          Searching means finding a specific value in a dataset.
+          The best searching method depends on whether the data is sorted and how it is stored.
+        </p>
+
+        <div class="card">
+          <h3>Linear Search (basic idea)</h3>
+          <p>
+            Linear search checks each item one by one until it finds the target.
+            It works on any list, even if the list is not sorted.
+          </p>
+          <p><strong>Typical time complexity:</strong> <code>O(n)</code></p>
+        </div>
+
+        <div class="card">
+          <h3>Binary Search (basic idea)</h3>
+          <p>
+            Binary search repeatedly cuts a sorted list in half to find a target.
+            Because it eliminates half the remaining items each step, it is much faster than linear search on large sorted arrays.
+          </p>
+          <p><strong>Typical time complexity:</strong> <code>O(log n)</code></p>
+        </div>
+
+        <footer>
+          Back to <a href="index.html">Home</a> or review <a href="sorting.html">Sorting</a>.
+        </footer>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
