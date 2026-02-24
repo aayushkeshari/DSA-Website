@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f6f8;
+  color: #111;
+  line-height: 1.6;
+}
+
+header {
+  background: #d9d9d9;
+  border-bottom: 3px solid #333;
+  padding: 16px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header p {
+  margin: 6px 0 0;
+  color: #333;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  min-height: calc(100vh - 90px);
+}
+
+nav {
+  background: #111;
+  color: #fff;
+  padding: 16px;
+}
+
+nav h2 {
+  margin: 0 0 12px;
+  font-size: 18px;
+}
+
+nav h3 {
+  margin: 16px 0 8px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #cfcfcf;
+}
+
+nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+nav a:hover {
+  background: #333;
+}
+
+nav a.active {
+  background: #0ea5e9;
+  color: #000;
+  font-weight: bold;
+}
+
+main {
+  background: #fff;
+  padding: 20px;
+  border-left: 3px solid #333;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 12px 0;
+  background: #fafafa;
+}
+
+.card ul {
+  padding-left: 18px;
+}
+
+code {
+  background: #eef2ff;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+footer {
+  margin-top: 18px;
+  border-top: 1px solid #ddd;
+  padding-top: 12px;
+  color: #444;
+}
+
+/* Design refinements for small screens */
+@media (max-width: 800px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+  main {
+    border-left: none;
+    border-top: 3px solid #333;
+  }
+}
