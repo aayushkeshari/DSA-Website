@@ -3,41 +3,78 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>DSA Website | Home</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Data Structures & Algorithms</h1>
+  <header>
+    <h1>Data Structures & Algorithms (DSA)</h1>
+    <p>A simple study site for understanding core DSA concepts.</p>
+  </header>
 
-  <p>
-    Welcome to my personal series of Data Structures & Algorithms - A simple and structured guide designed to help students and beginner programmers understand core computer science concepts. This is at the heart of everything CS!
-  </p>
+  <div class="page">
+    <nav>
+      <h2>Navigation</h2>
 
-  <h2>What Are Data Structures?</h2>
-  <p>
-    Data structures are ways of organizing and storing data so that it can be accessed and modified efficiently. Common examples include arrays, linked lists, stacks, queues, trees, and graphs. Choosing the right data structure can significantly improve the performance of a program.
-  </p>
+      <h3>Home</h3>
+      <a class="active" href="index.html">Introduction</a>
 
-  <h2>What Are Algorithms?</h2>
-  <p>
-    An algorithm is a step-by-step procedure used to solve a problem or perform a task. Algorithms are used for sorting data, searching for values, processing information, and much more. The efficiency of an algorithm is usually measured using time and space complexity.
-  </p>
+      <h3>Data Structures</h3>
+      <a href="arrays.html">Arrays</a>
+      <a href="linked-lists.html">Linked Lists</a>
+      <a href="stacks.html">Stacks</a>
+      <a href="queues.html">Queues</a>
+      <a href="hash-tables.html">Hash Tables</a>
+      <a href="trees.html">Trees</a>
+      <a href="graphs.html">Graphs</a>
 
-  <h2>Why Learn Data Structures and Algorithms?</h2>
-  <p>
-    Understanding data structures and algorithms is essential for computer science students and software developers. They help improve problem-solving skills, optimize program performance, and prepare individuals for technical interviews and coding challenges.
-  </p>
+      <h3>Algorithms</h3>
+      <a href="algorithms.html">Algorithm Basics</a>
+      <a href="sorting.html">Sorting</a>
+      <a href="searching.html">Searching</a>
+    </nav>
 
-  <h2>What You’ll Find on This Site</h2>
-  <ul>
-    <li>Clear explanations of fundamental data structures</li>
-    <li>Descriptions of common algorithms</li>
-    <li>Simple examples to strengthen understanding</li>
-    <li>Introduction to Big-O notation and complexity analysis</li>
-  </ul>
+    <main>
+      <div class="container">
+        <h2>Welcome</h2>
+        <p>
+          This website explains the basics of <strong>Data Structures and Algorithms</strong>.
+          Data structures help us store and organize data, and algorithms help us solve problems using that data.
+          Learning DSA is important for writing efficient programs and for doing well in technical interviews.
+        </p>
 
-  <p>
-    (Coming soon...) Use the navigation menu above to explore different topics and begin learning! 
-  </p>
+        <div class="card">
+          <h3>What are Data Structures?</h3>
+          <p>
+            A data structure is a way to organize information so you can use it efficiently.
+            Examples include <strong>arrays</strong> (items in order), <strong>linked lists</strong> (connected nodes),
+            and <strong>stacks</strong> (last in, first out).
+          </p>
+        </div>
 
+        <div class="card">
+          <h3>What are Algorithms?</h3>
+          <p>
+            An algorithm is a step-by-step method for solving a problem.
+            Algorithms can sort data, search for values, or optimize decisions.
+            We often compare algorithms using <strong>time complexity</strong> and <strong>space complexity</strong>.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Big-O (in one sentence)</h3>
+          <p>
+            <strong>Big-O notation</strong> describes how runtime or memory grows as the input size (<code>n</code>) grows.
+            For example, <code>O(n)</code> grows linearly while <code>O(n^2)</code> grows much faster.
+          </p>
+        </div>
+
+        <footer>
+          Start with <a href="arrays.html">Arrays</a> or jump to <a href="sorting.html">Sorting</a>.
+        </footer>
+      </div>
+    </main>
+  </div>
 </body>
 </html>
