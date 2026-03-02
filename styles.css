@@ -68,10 +68,16 @@ nav a.active {
   font-weight: bold;
 }
 
+body {
+  background-color: white;
+}
+
 main {
-  background: #fff;
-  padding: 20px;
-  border-left: 3px solid #333;
+  background: white;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 12px;
 }
 
 .container {
