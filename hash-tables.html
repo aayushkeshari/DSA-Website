@@ -44,6 +44,13 @@
           In many languages, this is what powers structures like dictionaries or maps.
         </p>
 
+        <figure class="figure">
+          <img class="dsa-image" src="images/hash-tables.png" alt="Hash table with hash function diagram">
+          <figcaption>
+            Hash tables use a hash function to map keys to specific indices for fast data retrieval.
+          </figcaption>
+        </figure>
+
         <div class="card">
           <h3>Why they’re powerful</h3>
           <p>
@@ -62,11 +69,29 @@
           <p><strong>Typical efficiency:</strong> average-case lookup is often <code>O(1)</code>, but worst-case can degrade to <code>O(n)</code>.</p>
         </div>
 
+        <div class="card">
+          <h3>How Hashing Works</h3>
+          <p>
+            A hash function converts a key into an index in an array.
+            The goal is to distribute keys evenly to reduce collisions.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Common Uses</h3>
+          <ul>
+            <li>Databases for quick record lookup</li>
+            <li>Caching systems</li>
+            <li>Counting frequencies of elements</li>
+          </ul>
+        </div>
+
         <footer>
           Next: <a href="trees.html">Trees</a>
         </footer>
       </div>
     </main>
   </div>
+
 </body>
 </html>
